@@ -3,7 +3,7 @@
 API REST para listagem e consulta de filmes, desenvolvida em Node.js com Express, Prisma e MySQL,
 seguindo arquitetura MVC, para o desafio da disciplina Programação Web para Back-End (UniFECAF).
 
-## 🚀 Tecnologias
+## Tecnologias
 
 - Node.js
 - Express
@@ -12,7 +12,7 @@ seguindo arquitetura MVC, para o desafio da disciplina Programação Web para Ba
 - Arquitetura MVC
 - REST
 
-## 📂 Estrutura de Pastas
+## Estrutura de Pastas
 
 ```text
 unifecaf-flix-project/
@@ -33,7 +33,7 @@ unifecaf-flix-project/
 └─ README.md
 ```
 
-## ⚙️ Configuração
+## Configuração
 
 1. Instale as dependências:
 
@@ -69,7 +69,7 @@ CREATE TABLE IF NOT EXISTS tbl_filme (
 npx prisma generate
 ```
 
-## ▶️ Executar a API
+## Executar a API
 
 ```bash
 npm run dev
@@ -77,7 +77,7 @@ npm run dev
 
 Servidor padrão: `http://localhost:3000`
 
-## 🔗 Endpoints
+## Endpoints
 
 ### GET /v1/controle-filmes/filme
 Lista todos os filmes.
