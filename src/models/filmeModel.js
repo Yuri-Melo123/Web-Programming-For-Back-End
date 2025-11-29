@@ -14,12 +14,13 @@ const filtrarPorNome = async (nome) => {
   return await prisma.tbl_filme.findMany({
     where: {
       OR: [
-        { nome: { contains: nome, mode: 'insensitive' } },
-        { sinopse: { contains: nome, mode: 'insensitive' } }
+        { nome: { contains: nome } },
+        { sinopse: { contains: nome } }
       ]
     }
   })
 }
+
 
 module.exports = {
   listarTodos,
